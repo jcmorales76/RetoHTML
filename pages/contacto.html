@@ -40,11 +40,15 @@
             </div>
             <div>
                 <form>
-                    <input type="text" placeholder="Nombre" label="Nombre">
-                    <input type="email" placeholder="Email" label="Email">
-                    <input type="number" placeholder="Telefono" label="Telefono">
+                    <label for="nombre"></label>
+                    <input type="text" placeholder="Nombre" label="Nombre" name="nombre" required>
+                    <label for="email"></label>
+                    <input type="email" placeholder="Email" label="Email" name="email" required>
+                    <label for="tele"></label>
+                    <input type="number" placeholder="Telefono" label="Telefono" name="tele" required>
+                    <label for="comentario"></label>
                     <textarea name="comentario" id="comentario" cols="30" rows="10"
-                        placeholder="Agregar un comentario"></textarea>
+                        placeholder="Agregar un comentario" required></textarea>
                     <input type="button" value="Enviar">
                 </form>
             </div>
